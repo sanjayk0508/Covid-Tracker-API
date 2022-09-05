@@ -25,7 +25,7 @@ const options = {
     xAxes: [
       {
         type: "time",
-        time: {
+        time:  {
           format: "MM/DD/YY",
           tooltipFormat: "ll",
         },

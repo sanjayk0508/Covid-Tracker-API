@@ -9,7 +9,7 @@ function InfoBox({ title, cases, total, active, isRed, ...props }) {
       onClick={props.onClick}
       className={`infoBox ${active && "infoBox--selected"} ${
         isRed && "infoBox--red"
-      }`}
+      }` }
     >
       <CardContent>
         <Typography color="textSecondary" gutterBottom>

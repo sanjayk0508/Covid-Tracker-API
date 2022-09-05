@@ -28,7 +28,7 @@ export const sortData = (data) => {
   sortedData.sort((a, b) => {
     if (a.cases > b.cases) {
       return -1;
-    } else {
+    } else{
       return 1;
     }
   });
